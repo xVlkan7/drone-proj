@@ -1,0 +1,5 @@
+source;share/follow_me/local_setup.bash
+source;share/follow_me/local_setup.dsv
+source;share/follow_me/local_setup.fish
+source;share/follow_me/local_setup.sh
+source;share/follow_me/local_setup.zsh

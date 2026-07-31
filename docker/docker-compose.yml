@@ -5,6 +5,7 @@ services:
     volumes:
       - ../:/workspace
 
+    entrypoint: ["/bin/bash"]
     stdin_open: true
     tty: true
 
