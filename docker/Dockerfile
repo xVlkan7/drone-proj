@@ -17,7 +17,23 @@ RUN apt install -y \
     python3-pip \
     build-essential \
     cmake \
-    vim && \
+    vim \
+    libxcb-cursor0 \
+    libxkbcommon-x11-0 \
+    libx11-xcb1 \
+    libxcb-icccm4 \
+    libxcb-image0 \
+    libxcb-keysyms1 \
+    libxcb-randr0 \
+    libxcb-render-util0 \
+    libxcb-shape0 \
+    libxcb-shm0 \
+    libxcb-sync1 \
+    libxcb-xfixes0 \
+    libxcb-xinerama0 \
+    libxcb-xkb1 \
+    libgl1 \
+    mesa-utils && \
     add-apt-repository universe
 
 # 3. Install ROS 2 apt source (official method)
