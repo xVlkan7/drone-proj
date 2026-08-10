@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/workspace/ros_ws/build/follow_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /workspace/ros_ws/src/follow_target -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/follow_target
+[0.063s] -- The C compiler identification is GNU 15.2.0
+[0.120s] -- The CXX compiler identification is GNU 15.2.0
+[0.126s] -- Detecting C compiler ABI info
+[0.203s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.336s] -- Detecting CXX compile features
+[0.336s] -- Detecting CXX compile features - done
+[0.347s] -- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.604s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.613s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.710s] -- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.712s] -- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.804s] -- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.838s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.949s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.949s] -- Configured cppcheck include dirs: 
+[0.949s] -- Configured cppcheck exclude dirs and/or files: 
+[0.950s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.950s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.950s] -- Added test 'lint_cmake' to check CMake code style
+[0.951s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.951s] -- Added test 'uncrustify' to check C / C++ code style
+[0.951s] -- Configured uncrustify additional arguments: 
+[0.952s] -- Added test 'xmllint' to check XML markup files
+[0.953s] -- Configuring done (0.9s)
+[0.963s] -- Generating done (0.0s)
+[0.990s] -- Build files have been written to: /workspace/ros_ws/build/follow_target
+[1.000s] Invoked command in '/workspace/ros_ws/build/follow_target' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake /workspace/ros_ws/src/follow_target -DCMAKE_INSTALL_PREFIX=/workspace/ros_ws/install/follow_target
+[1.001s] Invoking command in '/workspace/ros_ws/build/follow_target': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /workspace/ros_ws/build/follow_target -- -j20 -l20
+[1.046s] [ 50%] [32mBuilding CXX object CMakeFiles/target_publisher.dir/src/target_publisher.cpp.o[0m
+[1.273s] [01m[K/workspace/ros_ws/src/follow_target/src/target_publisher.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/geometry_msgs/msg/point.hpp: No such file or directory
+[1.273s]     7 | #include [01;31m[K<geometry_msgs/geometry_msgs/msg/point.hpp>[m[K
+[1.273s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.273s] compilation terminated.
+[1.274s] gmake[2]: *** [CMakeFiles/target_publisher.dir/build.make:79: CMakeFiles/target_publisher.dir/src/target_publisher.cpp.o] Error 1
+[1.274s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/target_publisher.dir/all] Error 2
+[1.274s] gmake: *** [Makefile:146: all] Error 2
+[1.276s] Invoked command in '/workspace/ros_ws/build/follow_target' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /workspace/ros_ws/build/follow_target -- -j20 -l20

@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/workspace/ros_ws/build/follow_me/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,4 +1,4 @@
-FROM ubuntu:26.04
+FROM ubuntu:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -45,10 +45,10 @@ RUN apt update && apt install -y curl && \
 
 # 4. Install ROS 2 and colcon
 RUN apt update && \
-    apt install -y ros-lyrical-desktop && \
+    apt install -y ros-jazzy-desktop && \
     apt install -y python3-colcon-ros
 
 # 5. Source ROS environment on startup
-RUN echo "source /opt/ros/lyrical/setup.bash" >> /root/.bashrc
+RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc
 
 ENTRYPOINT ["/bin/bash"]

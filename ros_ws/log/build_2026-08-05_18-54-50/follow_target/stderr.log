@@ -1,0 +1,7 @@
+[01m[K/workspace/ros_ws/src/follow_target/src/target_publisher.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/geometry_msgs/msg/point.hpp: No such file or directory
+    7 | #include [01;31m[K<geometry_msgs/geometry_msgs/msg/point.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/target_publisher.dir/build.make:79: CMakeFiles/target_publisher.dir/src/target_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/target_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
