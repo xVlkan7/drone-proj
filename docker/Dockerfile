@@ -15,6 +15,7 @@ RUN apt install -y \
     curl \
     git \
     python3-pip \
+    python3-pygame \
     build-essential \
     cmake \
     vim \
@@ -46,7 +47,7 @@ RUN apt update && apt install -y curl && \
 # 4. Install ROS 2 and colcon
 RUN apt update && \
     apt install -y ros-jazzy-desktop && \
-    apt install -y python3-colcon-ros
+    apt install -y python3-colcon-ros python3-colcon-package-selection
 
 # 5. Source ROS environment on startup
 RUN echo "source /opt/ros/jazzy/setup.bash" >> /root/.bashrc

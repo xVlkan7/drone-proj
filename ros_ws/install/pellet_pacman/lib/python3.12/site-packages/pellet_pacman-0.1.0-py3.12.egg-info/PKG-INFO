@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: pellet-pacman
+Version: 0.1.0
+Summary: A small ROS 2 keyboard-controlled pellet collection game.

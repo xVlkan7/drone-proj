@@ -1,0 +1,4 @@
+[0.046s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--verbose']
+[0.046s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test-result', test_result_base='build', all=False, result_files_only=False, verbose=True, delete=False, delete_yes=False, verb_parser=CustomArgumentParser(prog='colcon test-result', usage=None, description='Show the test results generated when testing a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7f385e696600>, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7f385e696600>>)
+[0.048s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.050s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
